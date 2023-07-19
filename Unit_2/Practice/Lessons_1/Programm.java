@@ -1,5 +1,11 @@
 package Unit_2.Practice.Lessons_1;
 
+import Unit_3.Practice.Lessons_1.Animal;
+import Unit_3.Practice.Lessons_1.Cat;
+import Unit_3.Practice.Lessons_1.Dog;
+import Unit_3.Practice.Lessons_1.HomeCat;
+import Unit_3.Practice.Lessons_1.Tiger;
+
 /*5) Попрактикуемся на задаче:
  Создать классы Собака, Кот,Домашний Кот, Тигр, Животное
  Животные могут бежать и плыть. В качестве аргумента каждому методу передается длина
@@ -14,7 +20,7 @@ package Unit_2.Practice.Lessons_1;
  */
 public class Programm {
     public static void main(String[] args) {
-        Animal[] animal = {
+        Unit_3.Practice.Lessons_1.Animal[] animal = {
                 new Dog("Bobik", 500, 1),
                 new HomeCat("Barsik", 20),
                 new Cat("Myrka", 50),
