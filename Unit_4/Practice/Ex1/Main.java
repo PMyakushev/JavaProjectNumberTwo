@@ -6,6 +6,7 @@ package Unit_4.Practice.Ex1;
  */
 public class Main {
     public static void main(String[] args) {
+
         SimpleBox intBox1 = new SimpleBox(10);
         SimpleBox intBox2 = new SimpleBox(20);
         int sum = (Integer)intBox1.getObj()+ (Integer)intBox2.getObj(); //Каждый раз необходимо проверять тип данных
