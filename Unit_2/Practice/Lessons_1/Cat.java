@@ -1,7 +1,5 @@
 package Unit_2.Practice.Lessons_1;
 
-import Unit_3.Practice.Lessons_1.Animal;
-
 public class Cat extends Animal {
     protected static int count;
     int runDistance;
